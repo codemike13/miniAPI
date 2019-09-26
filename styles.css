@@ -1,0 +1,47 @@
+ @import url(//db.onlinewebfonts.com/c/ffc2d1fa3b2bc3f86e8bb45dfd8cff72?family=Fallout+Font);
+ @font-face {font-family: "Fallout Font"; 
+  src: url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.eot"); 
+  src: url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.woff") format("woff"), url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ffc2d1fa3b2bc3f86e8bb45dfd8cff72.svg#Fallout Font") format("svg"); }
+
+ html {
+  height: 100%;
+ 
+}
+body{
+  height: 100%;
+  background-color: black;
+  background-image: url("/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#app {
+    display:flex;
+  background-image: url("/pipBoy3.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+#display{
+  height: 55%;    
+  width: 40%;
+  margin-left: 160px;
+  margin-bottom: 120px;
+  /* border: 2px solid purple; */
+  color:rgba(0,150,0,.95);
+  font-size: 20px;
+  overflow: scroll;
+  font-family:'Georgia', Times New Roman, Times, serif;
+  background-image: url("/blackUSA.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+     /* letter-spacing: 13px;
+   line-height: 50px; */
+}
